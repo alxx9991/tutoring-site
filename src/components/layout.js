@@ -13,8 +13,6 @@ import Header from "./header"
 import "normalize.css"
 import "./layout.css"
 
-const Grid = styled.div``
-
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -27,12 +25,10 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <Grid className="grid">
+    <div className="grid">
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div>
-        <main>{children}</main>
-      </div>
-    </Grid>
+      <main>{children}</main>
+    </div>
   )
 }
 

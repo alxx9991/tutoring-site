@@ -84,3 +84,18 @@ h6 {
 .style-sink-neutral-light-accent {
   color: var(--neutral-light-accent);
 }
+
+/* Grid layout */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: max-content;
+  grid-gap: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.grid-content {
+  display: flex;
+  grid-area: auto / 1 / auto / 7;
+}
