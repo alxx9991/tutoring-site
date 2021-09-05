@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { StaticImage } from "gatsby-plugin-image"
+import Tick from "../images/tick.svg"
 
 const WhyWrapper = styled.div`
   padding-top: 4rem;
@@ -17,6 +18,7 @@ const WhyWrapper = styled.div`
 
       .tick {
         margin-right: 1rem;
+        width: 30px;
       }
     }
 
@@ -31,12 +33,7 @@ const Why = () => (
     <div className="why-content grid-content">
       <h1>Why choose Alex</h1>
       <div className="reason-heading">
-        <StaticImage
-          src="../images/tick.svg"
-          alt="tick"
-          width="30"
-          className="tick"
-        />
+        <Tick className="tick" />
         <p className="bold-text text-secondary-accent">PERSONALISED COURSES</p>
       </div>
       <p className="reason-paragraph">
@@ -49,12 +46,7 @@ const Why = () => (
         optimised for every individual student.
       </p>
       <div className="reason-heading">
-        <StaticImage
-          src="../images/tick.svg"
-          alt="tick"
-          width="30"
-          className="tick"
-        />
+        <Tick className="tick" />
         <p className="bold-text text-secondary-accent">EXCELLENT RESULTS</p>
       </div>
       <p className="reason-paragraph">
@@ -63,12 +55,7 @@ const Why = () => (
         available on request.
       </p>
       <div className="reason-heading">
-        <StaticImage
-          src="../images/tick.svg"
-          alt="tick"
-          width="30"
-          className="tick"
-        />
+        <Tick className="tick" />
         <p className="bold-text text-secondary-accent">NO BULLSHIT RATES</p>
       </div>
       <p className="reason-paragraph">
