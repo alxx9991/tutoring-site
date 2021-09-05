@@ -6,14 +6,14 @@ import styled from "styled-components"
 import { StaticImage } from "gatsby-plugin-image"
 
 const HeaderWrapper = styled.div`
-  grid-column: 1 / 7;
+  grid-column: 2 / 8;
   display: flex;
   flex-direction: row;
   justify-content: center;
 
   .logo {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 `
 

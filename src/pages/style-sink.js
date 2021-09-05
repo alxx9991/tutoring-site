@@ -36,10 +36,10 @@ const StyleSink = () => (
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
     </p>
-    <h1 className="style-sink-main-accent">Main Accent</h1>
-    <h1 className="style-sink-secondary-accent">Secondary Accent</h1>
-    <h1 className="style-sink-neutral-accent">Neutral Accent</h1>
-    <h1 className="style-sink-neutral-light-accent">Neutral Light Accent</h1>
+    <h1 className="text-main-accent">Main Accent</h1>
+    <h1 className="text-secondary-accent">Secondary Accent</h1>
+    <h1 className="text-neutral-accent">Neutral Accent</h1>
+    <h1 className="text-neutral-light-accent">Neutral Light Accent</h1>
   </div>
 )
 export default StyleSink
