@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 
 import styled from "styled-components"
 import { StaticImage } from "gatsby-plugin-image"
+import Logo from "../images/logo.svg"
 
 const HeaderWrapper = styled.div`
   grid-column: 2 / 8;
@@ -19,12 +20,7 @@ const HeaderWrapper = styled.div`
 
 const Header = ({ siteTitle }) => (
   <HeaderWrapper>
-    <StaticImage
-      src="../images/logo.svg"
-      width="120"
-      alt="logo"
-      className="logo"
-    />
+    <Logo className="logo" />
   </HeaderWrapper>
 )
 

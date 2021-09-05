@@ -33,8 +33,7 @@ const About = () => (
       <p className="bold-text text-secondary-accent">
         MATHS IS MY HOBBY, TEACHING IS MY PASSION
       </p>
-      className="large-text" className="large-text"
-      <p>
+      <p className="large-text" className="large-text">
         Theres more to your coach than just marks! I graduated from North Sydney
         Boys in 2018, and now I study Mathematics and Computer Science at the
         University of Sydney!
