@@ -12,6 +12,7 @@ const WhyWrapper = styled.div`
 
     .reason-heading {
       display: flex;
+
       flex-direction: row;
       justify-content: center;
       align-items: center;
