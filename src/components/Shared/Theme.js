@@ -7,4 +7,3 @@ const Theme = {
 }
 
 export default Theme
-g

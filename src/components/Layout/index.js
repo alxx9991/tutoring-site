@@ -10,9 +10,10 @@ import PropTypes from "prop-types"
 // import { useStaticQuery, graphql } from "gatsby"
 import styled, { ThemeProvider } from "styled-components"
 // import Header from "../header"
-import GlobalStyles from "../shared/GlobalStyles"
-import Theme from "../shared/Theme.js"
-import Grid from "../shared/Grid.js"
+import GlobalStyles from "../Shared/GlobalStyles"
+import Theme from "../Shared/Theme.js"
+import Grid from "./Grid.js"
+import Header from "../App/Header"
 import FullWidthSection from "./FullWidthSection"
 
 const ContentStyles = styled(FullWidthSection)``
@@ -32,7 +33,7 @@ const Layout = ({ children }) => {
     <ThemeProvider theme={Theme}>
       <GlobalStyles></GlobalStyles>
       <Grid>
-        {/* <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> */}
+        <Header></Header>
         <ContentStyles>{children}</ContentStyles>
       </Grid>
     </ThemeProvider>

@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 
 import styled from "styled-components"
 import { StaticImage } from "gatsby-plugin-image"
-import Logo from "../images/logo.svg"
+import Logo from "../../../images/logo.svg"
 
 const HeaderWrapper = styled.div`
   grid-column: 2 / 8;

@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components"
-import { normalize } from "styled-normalize"
+import { normalize } from "styled-components"
 
 const GlobalStyles = createGlobalStyle`
   ${normalize}
@@ -112,3 +112,4 @@ const GlobalStyles = createGlobalStyle`
     padding-right: 1rem;
   }
 `
+export default GlobalStyles
