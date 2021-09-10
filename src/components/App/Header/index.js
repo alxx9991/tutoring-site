@@ -4,24 +4,22 @@ import { Link } from "gatsby"
 
 import styled from "styled-components"
 import { StaticImage } from "gatsby-plugin-image"
-import Logo from "../../../images/logo.svg"
 
-const HeaderWrapper = styled.div`
-  grid-column: 2 / 8;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+import Logo from "./Logo"
+import Nav from "./Nav"
 
-  .logo {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
+import FullWidthSection from "../../Layout/FullWidthSection.js"
+
+const HeaderStyle = styled(FullWidthSection)`
+  margin-top: 2rem;
+  height: auto;
 `
 
 const Header = ({ siteTitle }) => (
-  <HeaderWrapper>
-    <Logo className="logo" />
-  </HeaderWrapper>
+  <HeaderStyle>
+    <Logo></Logo>
+    <Nav></Nav>
+  </HeaderStyle>
 )
 
 Header.propTypes = {

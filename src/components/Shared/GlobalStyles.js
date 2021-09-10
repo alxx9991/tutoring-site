@@ -10,9 +10,11 @@ const GlobalStyles = createGlobalStyle`
 
     /* Colors */
     --main-accent: #061798;
-    --secondary-accent: #3f5f6e;
-    --neutral-accent: #d7d8be;
-    --neutral-light-accent: #f6f6eb;
+    --secondary-accent: #CF622A;
+    --neutral-accent: #BEAE8F;
+    --neutral-light-accent: #F0E6D1;
+
+    --section-height: 100vh;
   }
 
   body {
@@ -110,6 +112,18 @@ const GlobalStyles = createGlobalStyle`
     grid-area: auto / 2 / auto / 8;
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  @media ${props => props.theme.breakpoints.m} {
+    html {
+      font-size: 15px;
+    }
+  }
+
+  @media ${props => props.theme.breakpoints.l} {
+    html {
+      font-size: 16px;
+    }
   }
 `
 export default GlobalStyles

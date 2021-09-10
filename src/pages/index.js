@@ -8,7 +8,7 @@ import { Hero } from "../components/App/Sections"
 
 const IndexPage = () => (
   <Layout>
-    {/* <Hero /> */}
+    <Hero />
     {/* <About />
     <Why /> */}
   </Layout>
