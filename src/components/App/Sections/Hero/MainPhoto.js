@@ -1,7 +1,7 @@
-import Photo from "../../../../images/Photo.svg"
 import React from "react"
 import styled from "styled-components"
 import Row from "../../../Layout/Row.js"
+import { StaticImage } from "gatsby-plugin-image"
 
 const MainPhotoStyle = styled(Row)`
   svg {
@@ -13,7 +13,7 @@ const MainPhotoStyle = styled(Row)`
 
 const MainPhoto = () => (
   <MainPhotoStyle sd={2} ed={6}>
-    <Photo></Photo>
+    <StaticImage src="../../../../images/photo.png" alt="photo of alex" />
   </MainPhotoStyle>
 )
 
