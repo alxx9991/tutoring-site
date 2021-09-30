@@ -1,8 +1,8 @@
 import { createGlobalStyle } from "styled-components"
-import { normalize } from "styled-components"
+import { Normalize } from "styled-components"
 
 const GlobalStyles = createGlobalStyle`
-  ${normalize}
+  ${Normalize}
   @import url(//fonts.googleapis.com/css?family=Karla);
 
   html {
@@ -43,9 +43,13 @@ const GlobalStyles = createGlobalStyle`
 
   h1 {
     margin-top: 0;
-    /* Full size version */
-    /* font-size: 4.209rem; */
     font-size: 3.157rem;
+  }
+  
+  @media ${props => props.theme.breakpoints.l} {
+    h1 {
+      font-size: 4.209rem;
+    }
   }
 
   h2 {

@@ -24,7 +24,7 @@ const FullWidthSection = styled(motion.section)`
 
   @media ${props => props.theme.breakpoints.l} {
     grid-column: 1 / span 14;
-    grid-template-columns: 1fr repeat(12, minmax(auto, 7.2rem)) 1fr;
+    grid-template-columns: 1fr repeat(12, 1fr) 1fr;
     gap: ${props => (props.gapLarge ? props.gapLarge : "2rem 2rem")};
     margin: ${props => (props.marginLarge ? props.marginLarge : 0)};
   }

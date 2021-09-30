@@ -19,7 +19,7 @@ const NavStyle = styled(Row)`
 `
 
 const Nav = () => (
-  <NavStyle sd={5} ed={10} sm={5} em={10} sl={7} el={13}>
+  <NavStyle sd={5} ed={10} sm={5} em={10} sl={8} el={13}>
     <a className="large-text" href="">
       About
     </a>

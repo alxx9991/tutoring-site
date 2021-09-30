@@ -6,13 +6,17 @@ import { StaticImage } from "gatsby-plugin-image"
 const MainPhotoStyle = styled(Row)`
   svg {
     width: 100%;
-    height: 100%;
     max-height: 500px;
+  }
+
+  @media ${props => props.theme.breakpoints.m} {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 `
 
 const MainPhoto = () => (
-  <MainPhotoStyle sd={2} ed={6}>
+  <MainPhotoStyle sd={2} ed={6} sm={6} em={10} sl={9} el={13}>
     <StaticImage src="../../../../images/photo.png" alt="photo of alex" />
   </MainPhotoStyle>
 )
