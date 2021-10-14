@@ -2,7 +2,6 @@ import styled from "styled-components"
 import { motion } from "framer-motion"
 
 const FullWidthSection = styled(motion.section)`
-  height: var(--section-height);
   grid-column: 1 / span 6;
   display: grid;
   grid-template-columns: 2rem repeat(4, 1fr) 2rem;

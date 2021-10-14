@@ -7,13 +7,11 @@ import MainPhoto from "./MainPhoto"
 import Button from "../../../Shared/styles/Button"
 import Row from "../../../Layout/Row"
 
-const HeroStyle = styled(FullWidthSection)`
-  min-height: 650px;
-  max-height: 670px;
-`
+const HeroStyle = styled(FullWidthSection)``
 const HeroButtonMobile = styled(Row)`
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 
   @media ${props => props.theme.breakpoints.m} {
     display: none;
