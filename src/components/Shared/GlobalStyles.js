@@ -1,8 +1,6 @@
 import { createGlobalStyle } from "styled-components"
-import { Normalize } from "styled-normalize"
 
 const GlobalStyles = createGlobalStyle`
-  ${Normalize}
   @import url(//fonts.googleapis.com/css?family=Karla);
 
   html {
