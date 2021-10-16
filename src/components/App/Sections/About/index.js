@@ -1,6 +1,5 @@
 import React from "react"
 import styled from "styled-components"
-import { StaticImage } from "gatsby-plugin-image"
 import FullWidthSection from "../../../Layout/FullWidthSection"
 import Title from "./Title"
 import Content from "./Content"
