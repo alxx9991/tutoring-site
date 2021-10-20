@@ -1,5 +1,5 @@
 import * as React from "react"
-
+import Seo from "../components/Shared/Seo"
 import Layout from "../components/Layout"
 import {
   Hero,
@@ -13,6 +13,7 @@ import {
 
 const IndexPage = () => (
   <Layout>
+    <Seo title="Home" />
     <Hero />
     <About />
     <Why />
