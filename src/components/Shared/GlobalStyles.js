@@ -25,6 +25,8 @@ const GlobalStyles = createGlobalStyle`
 
   p {
     margin: 0rem;
+    font-size: 1rem;
+    line-height: 2rem;
   }
 
   h1,

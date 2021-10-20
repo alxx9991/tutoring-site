@@ -4,7 +4,7 @@ import Row from "../../../Layout/Row"
 
 const TitleStyle = styled(Row)`
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 4rem;
 `
 
 const Title = () => {

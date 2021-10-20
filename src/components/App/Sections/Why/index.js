@@ -19,7 +19,7 @@ const WhyButton = styled(Row)`
 `
 
 const Why = () => (
-  <WhyStyle>
+  <WhyStyle id="why">
     <Title></Title>
     <Content></Content>
     <Review></Review>

@@ -15,11 +15,10 @@ const ContentStyle = styled(Row)`
 const Content = () => {
   return (
     <ContentStyle sd={2} ed={6} sm={6} em={10} sl={9} el={13}>
-      <p className="bold-text text-secondary-accent">I LIK MEF</p>
+      <p className="bold-text text-secondary-accent">WELCOME</p>
       <p>
-        Theres more to your coach than just marks! I graduated from North Sydney
-        Boys in 2018, and now I study Mathematics and Computer Science at the
-        University of Sydney!
+        I graduated from North Sydney Boys in 2018, and now I study Mathematics
+        and Computer Science at the University of Sydney!
       </p>
       <p>
         My personal pursuit is applying mathematical reasoning and concepts to

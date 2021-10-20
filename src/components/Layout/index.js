@@ -14,6 +14,7 @@ import GlobalStyles from "../Shared/GlobalStyles"
 import Theme from "../Shared/Theme.js"
 import Grid from "./Grid.js"
 import Header from "../App/Header"
+import Footer from "../App/Footer"
 import FullWidthSection from "./FullWidthSection"
 
 const ContentStyles = styled(FullWidthSection)``
@@ -35,6 +36,7 @@ const Layout = ({ children }) => {
       <Grid>
         <Header></Header>
         <ContentStyles>{children}</ContentStyles>
+        <Footer></Footer>
       </Grid>
     </ThemeProvider>
   )

@@ -34,7 +34,7 @@ const HeroButtonMain = styled(Row)`
 const Title = () => (
   <TitleStyle sd={2} ed={6} sm={2} em={6} sl={3} el={8}>
     <h1>
-      Wo Shi <span className="text-main-accent">Arix</span>
+      Hello, I am <span className="text-main-accent">Alex</span>
     </h1>
     <p className="large-text text-secondary-accent">
       Sydney’s Number One HSC Mathematics Coach

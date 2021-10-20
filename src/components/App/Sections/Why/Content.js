@@ -22,12 +22,12 @@ const ContentStyle = styled(Row)`
 
   .reason-heading {
     margin-top: 1.5rem;
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
   }
 
   .first-reason-heading {
+    margin-bottom: 0.5rem;
     margin-top: 0rem;
-    margin-bottom: 0;
   }
   @media ${props => props.theme.breakpoints.m} {
     p {
@@ -82,13 +82,13 @@ const Content = () => {
           className="tick"
           height={20}
         ></StaticImage>
-        NO BULLSHIT RATES
+        REASONABLE RATES
       </p>
       <p>
         Fully transparent and fair fees, available in the services section
         below. I don’t charge a massive premium for a brand name.
       </p>
-      <p>If you are paying someone $100 per hour you are being scammed.</p>
+      <p>Do not pay $100 per hour for tutoring.</p>
     </ContentStyle>
   )
 }

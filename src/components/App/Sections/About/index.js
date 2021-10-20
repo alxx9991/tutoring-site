@@ -8,7 +8,7 @@ import Marks from "./Marks"
 const AboutStyle = styled(FullWidthSection)``
 
 const About = () => (
-  <AboutStyle>
+  <AboutStyle id="about">
     <Title></Title>
     <Content></Content>
     <Marks></Marks>
