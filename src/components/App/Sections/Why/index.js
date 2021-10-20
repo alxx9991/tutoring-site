@@ -12,7 +12,9 @@ const WhyButton = styled(Row)`
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 2rem;
-
+  &:hover {
+    transform: scale(1.02);
+  }
   @media ${props => props.theme.breakpoints.m} {
     display: none;
   }

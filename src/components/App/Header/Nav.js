@@ -15,6 +15,10 @@ const NavStyle = styled(Row)`
   a {
     text-decoration: none;
     color: var(--main-accent);
+    &:hover {
+      transform: scale(1.1);
+      color: var(--secondary-accent);
+    }
   }
 `
 

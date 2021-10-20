@@ -12,6 +12,10 @@ const HeroButtonMobile = styled(Row)`
   margin-top: 2rem;
   margin-bottom: 2rem;
 
+  &:hover {
+    transform: scale(1.05);
+  }
+
   @media ${props => props.theme.breakpoints.m} {
     display: none;
   }

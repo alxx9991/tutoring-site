@@ -15,6 +15,9 @@ const VideosStyle = styled(Row)`
     .video-thumbnail {
       max-width: 250px;
       margin-right: 10%;
+      &:hover {
+        transform: scale(1.05);
+      }
     }
 
     h4 {
@@ -35,7 +38,7 @@ const VideosStyle = styled(Row)`
 const Videos = () => (
   <VideosStyle sd={2} ed={6} sm={2} em={6} sl={3} el={8}>
     <div className="video-container">
-      <a className="video-thumbnail" href="https://google.com.au">
+      <a className="video-thumbnail" href="https://youtu.be/O7YkCP2-WdQ">
         <StaticImage
           src="../../../../images/2u-thumbnail.png"
           alt="link to 2u video"
@@ -44,7 +47,7 @@ const Videos = () => (
       <h4 className="text-main-accent">2U Yr11</h4>
     </div>
     <div className="video-container">
-      <a className="video-thumbnail" href="https://google.com.au">
+      <a className="video-thumbnail" href="https://youtu.be/B9mD7oJscmI">
         <StaticImage
           src="../../../../images/3u-thumbnail.png"
           alt="link to 3u video"
@@ -53,7 +56,7 @@ const Videos = () => (
       <h4 className="text-main-accent">3U Yr12</h4>
     </div>
     <div className="video-container">
-      <a className="video-thumbnail" href="https://google.com.au">
+      <a className="video-thumbnail" href="https://youtu.be/WuOe897Xnxc">
         <StaticImage
           src="../../../../images/4u-thumbnail.png"
           alt="link to 4u video"

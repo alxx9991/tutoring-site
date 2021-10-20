@@ -126,7 +126,7 @@ const GlobalStyles = createGlobalStyle`
 
   @media ${props => props.theme.breakpoints.l} {
     html {
-      font-size: 16px;
+      font-size: 17px;
     }
   }
 `

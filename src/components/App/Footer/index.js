@@ -32,6 +32,10 @@ const NavContainer = styled(Row)`
     text-decoration: none;
     color: var(--main-accent);
     margin-bottom: 2rem;
+    &:hover {
+      transform: scale(1.1);
+      color: var(--secondary-accent);
+    }
   }
 
   @media ${props => props.theme.breakpoints.m} {

@@ -24,7 +24,9 @@ const HeroButtonMain = styled(Row)`
   display: none;
   text-align: center;
   margin-top: 4rem;
-
+  &:hover {
+    transform: scale(1.05);
+  }
   @media ${props => props.theme.breakpoints.m} {
     display: block;
     text-align: left;
