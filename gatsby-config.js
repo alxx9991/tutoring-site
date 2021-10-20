@@ -3,7 +3,7 @@ module.exports = {
     title: `Alex's Coaching`,
     description: `Sydney's Number One HSC Coach`,
     author: `@alex`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://alex-coaching.netlify.app`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -29,7 +29,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Alex's Coaching`,
-        short_name: `starter`,
+        short_name: `alexcoaching`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
