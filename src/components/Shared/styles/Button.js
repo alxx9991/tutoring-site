@@ -1,8 +1,7 @@
 import styled from "styled-components"
-import { Link } from "gatsby"
 
 // A styled component for the button with primary background color and pill shape
-const Button = styled(Link)`
+const Button = styled.a`
   background: var(--main-accent);
   border-radius: 3px;
   color: var(--neutral-light-accent);

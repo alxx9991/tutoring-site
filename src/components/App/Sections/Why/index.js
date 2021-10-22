@@ -13,7 +13,7 @@ const WhyButton = styled(Row)`
   margin-top: 1rem;
   margin-bottom: 2rem;
   &:hover {
-    transform: scale(1.02);
+    transform: scale(1.02) translateX(2px);
   }
   @media ${props => props.theme.breakpoints.m} {
     display: none;
@@ -26,7 +26,9 @@ const Why = () => (
     <Content></Content>
     <Review></Review>
     <WhyButton sd={2} ed={6}>
-      <Button className="bold-text">Contact Alex!</Button>
+      <Button className="bold-text" href="#contact">
+        Contact Alex!
+      </Button>
     </WhyButton>
   </WhyStyle>
 )

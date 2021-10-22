@@ -25,7 +25,9 @@ const Video = () => (
     <Content></Content>
     <Videos></Videos>
     <VideoButtonMobile sd={2} ed={6}>
-      <Button className="bold-text">Ask for free trial!</Button>
+      <Button className="bold-text" href="#contact">
+        Ask for free trial!
+      </Button>
     </VideoButtonMobile>
   </VideoStyle>
 )

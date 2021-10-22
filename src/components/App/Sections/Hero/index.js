@@ -26,7 +26,9 @@ const Hero = () => (
     <Title></Title>
     <MainPhoto></MainPhoto>
     <HeroButtonMobile sd={2} ed={6}>
-      <Button className="bold-text">Find out more!</Button>
+      <Button className="bold-text" href="#services">
+        Find out more!
+      </Button>
     </HeroButtonMobile>
   </HeroStyle>
 )

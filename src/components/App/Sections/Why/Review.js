@@ -26,7 +26,7 @@ const ReviewButtonMain = styled(Row)`
   text-align: center;
   margin-top: 4rem;
   &:hover {
-    transform: scale(1.02);
+    transform: scale(1.02) translateX(2px);
   }
   @media ${props => props.theme.breakpoints.m} {
     display: block;
@@ -39,7 +39,14 @@ const Review = () => {
     <ReviewStyle sd={1} ed={7} sm={6} em={10} sl={9} el={13}>
       <ReviewSVG></ReviewSVG>
       <ReviewButtonMain>
-        <Button className="bold-text" sm={2} em={6} sl={3} el={8}>
+        <Button
+          className="bold-text"
+          href="#contact"
+          sm={2}
+          em={6}
+          sl={3}
+          el={8}
+        >
           Contact Alex!
         </Button>
       </ReviewButtonMain>

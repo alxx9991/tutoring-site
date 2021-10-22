@@ -42,7 +42,7 @@ const Title = () => (
       Sydney’s Number One HSC Mathematics Coach
     </p>
     <HeroButtonMain>
-      <Button className="bold-text" sm={2} em={6} sl={3} el={8}>
+      <Button className="bold-text" href="#why" sm={2} em={6} sl={3} el={8}>
         Find out more!
       </Button>
     </HeroButtonMain>

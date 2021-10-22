@@ -17,7 +17,7 @@ const VideoButtonMain = styled(Row)`
   text-align: center;
   margin-top: 4rem;
   &:hover {
-    transform: scale(1.02);
+    transform: scale(1.02) translateX(2.5px);
   }
   @media ${props => props.theme.breakpoints.m} {
     display: block;
@@ -39,7 +39,14 @@ const Content = () => {
         too. There is really no reason not to give it a go!
       </p>
       <VideoButtonMain>
-        <Button className="bold-text" sm={2} em={6} sl={3} el={8}>
+        <Button
+          className="bold-text"
+          href="#contact"
+          sm={2}
+          em={6}
+          sl={3}
+          el={8}
+        >
           Ask for a free trial!
         </Button>
       </VideoButtonMain>
