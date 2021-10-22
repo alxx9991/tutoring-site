@@ -93,7 +93,7 @@ const Services = () => (
         </p>
         <p className="bold-text text-main-accent gap-above">LESSON FEES</p>
         <p>
-          <span className="bold-text">$60</span> /hour
+          <span className="bold-text">$70</span> /hour
         </p>
         <p className="text-secondary-accent gap-above">
           In-person travelling time fee:
@@ -115,7 +115,7 @@ const Services = () => (
         </p>
         <p className="bold-text text-main-accent gap-above">LESSON FEES</p>
         <p>
-          <span className="bold-text">$45</span> /hour/student
+          <span className="bold-text">$50</span> /hour/student
         </p>
         <p className="text-secondary-accent gap-above">
           In-person travelling time fee:
@@ -139,7 +139,7 @@ const Services = () => (
         </p>
         <p className="bold-text text-main-accent gap-above">LESSON FEES</p>
         <p>
-          <span className="bold-text">$35</span> /hour/student
+          <span className="bold-text">$40</span> /hour/student
         </p>
         <p className="text-secondary-accent gap-above">
           In-person travelling time fee:
